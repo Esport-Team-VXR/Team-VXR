@@ -28,3 +28,56 @@ footer {
     font-size: 14px;
     color: #888888;
 }
+#team-roster {
+    padding: 50px 20px;
+    background-color: #111111; /* leicht dunkler als Hauptseite */
+}
+
+#team-roster h2 {
+    color: #ff0055; /* Teamfarbe */
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.players-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.player {
+    background-color: #1a1a1a;
+    border: 2px solid #ff0055;
+    border-radius: 10px;
+    width: 200px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.player:hover {
+    transform: translateY(-10px);
+}
+
+.player img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ff0055;
+    margin-bottom: 10px;
+}
+
+.player h3 {
+    margin: 10px 0 5px;
+}
+
+.player p a {
+    color: #ff0055;
+    text-decoration: none;
+}
+
+.player p a:hover {
+    text-decoration: underline;
+}
+
